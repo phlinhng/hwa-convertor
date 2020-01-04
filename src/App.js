@@ -12,7 +12,9 @@ class App extends Component {
   hwaMap = (chr) => {
     let newPinyin = chr[0];
 
-    if(newPinyin.match(/^[nljqx]/)){
+    if(newPinyin.match(/^[nl]/)){
+      newPinyin = newPinyin.replace('v','yu');
+    }else if(newPinyin.match(/^[jqx]/)){
       newPinyin = newPinyin.replace('q','c').replace('x','s');
       if(!newPinyin.match(/iu$/)){
         newPinyin = newPinyin.replace('u','yu');
