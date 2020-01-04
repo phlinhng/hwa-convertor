@@ -13,10 +13,29 @@
   font-size: 1.2rem
 }
 
+.App-footer {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 0.8rem;
+  width: 100%;
+  position: fixed;
+  bottom: 16px;
+  color: rgba(0, 0, 0, .2);
+}
+
 .App-Panel {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  text-align: center;
+  width: 100%;
   padding: 8px 0 8px 0;
+}
+
+.Pinyin {
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  text-transform: capitalize;
+  word-break: break-word;
+  white-space: normal;
+  width: 45vw;
+  margin-left: 16px;
+  padding-top: 1vh;
 }
