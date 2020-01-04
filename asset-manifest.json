@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hwa-convertor/static/css/main.98207d9a.chunk.css",
+    "main.js": "/hwa-convertor/static/js/main.1088da16.chunk.js",
+    "main.js.map": "/hwa-convertor/static/js/main.1088da16.chunk.js.map",
+    "runtime-main.js": "/hwa-convertor/static/js/runtime-main.99eae49c.js",
+    "runtime-main.js.map": "/hwa-convertor/static/js/runtime-main.99eae49c.js.map",
+    "static/js/2.9219ba6f.chunk.js": "/hwa-convertor/static/js/2.9219ba6f.chunk.js",
+    "static/js/2.9219ba6f.chunk.js.map": "/hwa-convertor/static/js/2.9219ba6f.chunk.js.map",
+    "index.html": "/hwa-convertor/index.html",
+    "precache-manifest.4a4714bacca09c3a8b98ce86996bc802.js": "/hwa-convertor/precache-manifest.4a4714bacca09c3a8b98ce86996bc802.js",
+    "service-worker.js": "/hwa-convertor/service-worker.js",
+    "static/css/main.98207d9a.chunk.css.map": "/hwa-convertor/static/css/main.98207d9a.chunk.css.map",
+    "static/js/2.9219ba6f.chunk.js.LICENSE": "/hwa-convertor/static/js/2.9219ba6f.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99eae49c.js",
+    "static/js/2.9219ba6f.chunk.js",
+    "static/css/main.98207d9a.chunk.css",
+    "static/js/main.1088da16.chunk.js"
+  ]
+}
