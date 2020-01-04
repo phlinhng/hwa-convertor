@@ -9,4 +9,4 @@
 * 網頁的icon和標題
 
 # Acknowldgement
-Thanks for the core module [hotoo/pinyin](https://github.com/hotoo/pinyin).
+Thanks for the core module [hotoo/pinyin](https://github.com/hotoo/pinyin). Thanks [臺灣華語拼音方案](https://pinyin.thl.tw/) for inspiration of making a convertor, although I came up with the idea of creating a new romanization system for Mandarin on my own and find their website three months after I started my version.
