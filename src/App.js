@@ -41,12 +41,8 @@ class App extends Component {
       return [newPinyin.replace('ou','oo')];
     }else if(newPinyin.match(/ian$/) || newPinyin.match(/^yan$/)){
       return [newPinyin.replace('an','en')];
-    }else if(newPinyin.match(/un$/)){
-      if(newPinyin.match(/^[jcs]/)){
-        return [newPinyin];
-      }else{
-        return [newPinyin.replace('un','eun').replace('yeun','eun')];
-      }
+    }else if(newPinyin.match(/un$/) && newPinyin.match(/^[jcs]/)){
+      return [newPinyin.replace('un','eun').replace('yeun','eun')];
     }else{
       return [newPinyin];
     }
