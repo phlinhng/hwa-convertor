@@ -30,7 +30,7 @@ class App extends Component {
     }else if(newPinyin.match(/^zi$/)){
       return [newPinyin.replace('i','j')];
     }else if(chr[0].match(/^[cs]i$/)){
-      return [newPinyin.replace('i','ze')];
+      return [newPinyin.replace('i','ze').replace('cze','tze')];
     }else if(newPinyin.match(/^[dtnlgkhzs]e$/) || newPinyin.match(/^[zcst].e$/)){
       return [newPinyin.replace('e','er')];
     }else if(newPinyin.match(/ei$/)){
